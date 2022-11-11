@@ -61,6 +61,6 @@ public class MappingController {
         log.info("mappingProduce");
         return "ok";
     }
-
+    // allcommits
 
 }
