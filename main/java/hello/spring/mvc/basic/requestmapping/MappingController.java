@@ -56,6 +56,10 @@ public class MappingController {
         return "ok";
     }
 
-
+    @PostMapping(value = "/mapping-produce", produces = "text/html")
+    public String mappingProduces() {
+        log.info("mappingProduce");
+        return "ok";
+    }
 
 }
